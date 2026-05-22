@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>To do List</h1>
+        <label for="task">Task</label>
+        <input type="text" id="task">
+        <button id="btn" onclick="fun()">Add Task</button>&nbsp;&nbsp;<button id="pen" onclick="pending()">Completed/Pending Task</button>&nbsp;
+        <button id="new" onclick="newtd()">New</button>&nbsp;&nbsp;<button onclick="history()">History</button>&nbsp;&nbsp;<button onclick="chistory()">Clear History</button>
+        <br><br>
+        <div id="tl" style="display: flex; flex-wrap: wrap;"></div>
+    </div>
+    <div id="history">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
